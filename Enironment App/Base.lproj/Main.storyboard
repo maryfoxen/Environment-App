@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Challenges-->
+        <!--Item 2-->
         <scene sceneID="5Gd-Sk-jGK">
             <objects>
                 <viewController id="t3D-dq-N4V" sceneMemberID="viewController">
@@ -72,7 +72,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ghv-g9-8uO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Challenges" id="OhW-d9-qjn"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="OhW-d9-qjn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ynh-Yk-3pn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,9 +86,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bPs-Hh-fMq">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="CZ8-Sb-0nZ">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CZ8-Sb-0nZ" id="iS4-6F-0kb">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
@@ -101,6 +108,7 @@
                             <outlet property="delegate" destination="Chd-qJ-WyG" id="xcq-nL-BXW"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="RVg-3U-6vl"/>
                     <navigationItem key="navigationItem" title="I N D E X" id="qN9-Cx-FRg"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Odp-a5-Vfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -167,6 +175,7 @@
                     <connections>
                         <segue destination="a8C-hr-8r3" kind="relationship" relationship="viewControllers" id="iAW-V7-cZc"/>
                         <segue destination="t3D-dq-N4V" kind="relationship" relationship="viewControllers" id="etc-Ti-emr"/>
+                        <segue destination="Chd-qJ-WyG" kind="relationship" relationship="viewControllers" id="Ggg-5v-LY8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnD-6v-HGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -192,4 +201,7 @@
             <point key="canvasLocation" x="-122" y="-746"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ggg-5v-LY8"/>
+    </inferredMetricsTieBreakers>
 </document>
