@@ -24,8 +24,8 @@
                                 <color key="textColor" red="0.99942404029999998" green="0.78496903419999997" blue="0.69033770080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEK-vb-ArR">
-                                <rect key="frame" x="16" y="110" width="343" height="91"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEK-vb-ArR">
+                                <rect key="frame" x="16" y="108" width="343" height="91"/>
                                 <color key="backgroundColor" red="0.2631341029" green="0.72695921330000002" blue="0.8244963515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="0a0-Jd-46t"/>
@@ -99,9 +99,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK8-cT-eOQ">
-                                <rect key="frame" x="26" y="141" width="29" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK8-cT-eOQ">
+                                <rect key="frame" x="26" y="141" width="25" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="acB-pX-wK1"/>
+                                    <constraint firstAttribute="width" constant="25" id="i56-iJ-s3S"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="white"/>
                             </button>
                         </subviews>
@@ -119,6 +122,7 @@
                             <constraint firstItem="Ghv-g9-8uO" firstAttribute="trailing" secondItem="NEK-vb-ArR" secondAttribute="trailing" constant="16" id="LJs-XD-bLj"/>
                             <constraint firstItem="aKR-N0-bQp" firstAttribute="top" secondItem="NEK-vb-ArR" secondAttribute="bottom" constant="23" id="M9q-m0-lWI"/>
                             <constraint firstItem="aKR-N0-bQp" firstAttribute="centerX" secondItem="Ghv-g9-8uO" secondAttribute="centerX" id="UtM-OI-hHY"/>
+                            <constraint firstItem="bK8-cT-eOQ" firstAttribute="leading" secondItem="Ghv-g9-8uO" secondAttribute="leading" constant="26" id="VNG-rz-OgD"/>
                             <constraint firstItem="Ghv-g9-8uO" firstAttribute="trailing" secondItem="aKR-N0-bQp" secondAttribute="trailing" constant="16" id="ZvP-ib-Wbi"/>
                             <constraint firstItem="NEK-vb-ArR" firstAttribute="centerX" secondItem="Ghv-g9-8uO" secondAttribute="centerX" id="aAT-CD-3Pz"/>
                             <constraint firstItem="NEK-vb-ArR" firstAttribute="leading" secondItem="Ghv-g9-8uO" secondAttribute="leading" constant="16" id="byA-pt-K49"/>
