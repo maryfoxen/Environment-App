@@ -20,7 +20,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="D A I L Y  C H A L L E N G E" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGZ-Ry-9ge">
                                 <rect key="frame" x="16" y="44" width="343" height="68"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <color key="textColor" red="0.99942404029999998" green="0.78496903419999997" blue="0.69033770080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -93,7 +93,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="189"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aIU-ca-Rbt">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1186"/>
+                                                <rect key="frame" x="0.0" y="8" width="375" height="1178"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -118,13 +118,13 @@
                                     <constraint firstItem="WLA-R6-5AW" firstAttribute="centerY" secondItem="F1o-2p-UmS" secondAttribute="centerY" id="sRx-bJ-KfC"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S T A T I S T I C S  A N D  A L T E R N A T I V E S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJU-YA-ceD">
-                                <rect key="frame" x="0.0" y="37" width="375" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="S T A T I S T I C S  A N D  A L T E R N A T I V E S" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJU-YA-ceD">
+                                <rect key="frame" x="69" y="35" width="236" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="1Uj-zj-DHl"/>
                                     <constraint firstAttribute="height" constant="44" id="fm2-sk-FSI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <color key="textColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -153,14 +153,56 @@
                     <view key="view" contentMode="scaleToFill" id="6rG-M2-4Ve">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P R O F I L E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qb1-4P-Cjf">
+                                <rect key="frame" x="0.0" y="44" width="375" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="TSk-oj-9QN"/>
+                                    <constraint firstAttribute="width" constant="375" id="Xjm-ug-MaK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="textColor" red="0.0022935156250625797" green="0.12961629601100871" blue="0.25973588197969544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cAP-X8-8jH">
+                                <rect key="frame" x="16" y="86" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="U9W-Cg-J4G"/>
+                                    <constraint firstAttribute="width" constant="128" id="fwZ-9o-zs6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G E T  M O T I V A T E D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvz-bz-Ueb">
+                                <rect key="frame" x="0.0" y="250.66666666666666" width="375" height="20.333333333333343"/>
+                                <color key="backgroundColor" red="0.96801633883248728" green="0.96801633883248728" blue="0.96801633883248728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="V52-3Y-OgU"/>
+                                    <constraint firstAttribute="height" constant="20.329999999999998" id="gcW-NJ-9WG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cAP-X8-8jH" firstAttribute="top" secondItem="Qb1-4P-Cjf" secondAttribute="bottom" constant="8" id="3bU-8P-aXu"/>
+                            <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="kvz-bz-Ueb" secondAttribute="bottom" constant="458" id="9Yi-kI-YQA"/>
+                            <constraint firstItem="Qb1-4P-Cjf" firstAttribute="top" secondItem="Bn3-h5-L9T" secondAttribute="top" id="EwE-rB-rnF"/>
+                            <constraint firstItem="Qb1-4P-Cjf" firstAttribute="centerX" secondItem="Bn3-h5-L9T" secondAttribute="centerX" id="GQq-ku-ZVy"/>
+                            <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="cAP-X8-8jH" secondAttribute="bottom" constant="515" id="Lsn-UM-Xgg"/>
+                            <constraint firstItem="Bn3-h5-L9T" firstAttribute="trailing" secondItem="cAP-X8-8jH" secondAttribute="trailing" constant="231" id="Pir-FF-FG3"/>
+                            <constraint firstItem="kvz-bz-Ueb" firstAttribute="leading" secondItem="Qb1-4P-Cjf" secondAttribute="leading" id="RgO-fo-Maf"/>
+                            <constraint firstItem="cAP-X8-8jH" firstAttribute="leading" secondItem="Bn3-h5-L9T" secondAttribute="leading" constant="16" id="Zyo-kt-og6"/>
+                            <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="Qb1-4P-Cjf" secondAttribute="bottom" constant="651" id="uLU-3h-Q0U"/>
+                            <constraint firstItem="cAP-X8-8jH" firstAttribute="top" secondItem="Bn3-h5-L9T" secondAttribute="top" constant="42" id="yqn-JY-3ED"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bn3-h5-L9T"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="jOe-dN-XV6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXv-9c-4Su" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4972" y="332"/>
+            <point key="canvasLocation" x="4972" y="331.77339901477836"/>
         </scene>
         <!--I N D E X-->
         <scene sceneID="O9S-ff-V5t">
@@ -173,7 +215,7 @@
                         <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I N D E X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bPs-Hh-fMq">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                             <color key="textColor" red="0.81432103190000005" green="0.67285615600000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
