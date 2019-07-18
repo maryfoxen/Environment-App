@@ -15,6 +15,7 @@
 		CC4CFFD722DCFC160017C3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4CFFD522DCFC160017C3E9 /* LaunchScreen.storyboard */; };
 		CC4CFFE222DCFC160017C3E9 /* Enironment_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CFFE122DCFC160017C3E9 /* Enironment_AppTests.swift */; };
 		CC4CFFED22DCFC170017C3E9 /* Enironment_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CFFEC22DCFC160017C3E9 /* Enironment_AppUITests.swift */; };
+		CC96817722E0F5D600F5DEA5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96817622E0F5D600F5DEA5 /* ProfileViewController.swift */; };
 		CCC3990422DE5D120077520E /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3990322DE5D120077520E /* IndexTableViewController.swift */; };
 		CCC3990622DF9E550077520E /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3990522DF9E550077520E /* ChallengesViewController.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		CC4CFFE822DCFC160017C3E9 /* Enironment AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Enironment AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4CFFEC22DCFC160017C3E9 /* Enironment_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enironment_AppUITests.swift; sourceTree = "<group>"; };
 		CC4CFFEE22DCFC170017C3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96817622E0F5D600F5DEA5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CCC3990322DE5D120077520E /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
 		CCC3990522DF9E550077520E /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				CC4CFFD822DCFC160017C3E9 /* Info.plist */,
 				CC4CFFD022DCFC150017C3E9 /* Enironment_App.xcdatamodeld */,
 				CCC3990522DF9E550077520E /* ChallengesViewController.swift */,
+				CC96817622E0F5D600F5DEA5 /* ProfileViewController.swift */,
 			);
 			path = "Enironment App";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC96817722E0F5D600F5DEA5 /* ProfileViewController.swift in Sources */,
 				CCC3990422DE5D120077520E /* IndexTableViewController.swift in Sources */,
 				CCC3990622DF9E550077520E /* ChallengesViewController.swift in Sources */,
 				CC4CFFD222DCFC150017C3E9 /* Enironment_App.xcdatamodeld in Sources */,
