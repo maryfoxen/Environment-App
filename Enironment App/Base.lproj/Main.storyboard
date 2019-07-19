@@ -646,9 +646,9 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                     <connections>
                         <segue destination="a8C-hr-8r3" kind="relationship" relationship="viewControllers" id="iAW-V7-cZc"/>
                         <segue destination="t3D-dq-N4V" kind="relationship" relationship="viewControllers" id="etc-Ti-emr"/>
-                        <segue destination="DNH-iP-fML" kind="relationship" relationship="viewControllers" id="hRG-FM-YMT"/>
-                        <segue destination="Tgz-us-wGA" kind="relationship" relationship="viewControllers" id="BRd-9v-xhj"/>
                         <segue destination="8gN-Ep-LUv" kind="relationship" relationship="viewControllers" id="Qwk-bA-xKi"/>
+                        <segue destination="DNH-iP-fML" kind="relationship" relationship="viewControllers" id="VMn-FQ-Exo"/>
+                        <segue destination="Tgz-us-wGA" kind="relationship" relationship="viewControllers" id="cOV-HC-Ino"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnD-6v-HGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
