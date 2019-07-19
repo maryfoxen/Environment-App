@@ -417,20 +417,6 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                                             <constraint firstAttribute="bottom" secondItem="aIU-ca-Rbt" secondAttribute="bottom" id="g6e-iz-duc"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E N E R G Y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH1-Au-dJx">
-                                        <rect key="frame" x="8" y="460" width="90" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiV-j6-Gzh">
-                                        <rect key="frame" x="8" y="523" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="WLA-R6-5AW" firstAttribute="leading" secondItem="F1o-2p-UmS" secondAttribute="leading" id="348-Tg-udt"/>
@@ -487,13 +473,6 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                                 <color key="textColor" red="0.0022935156250625797" green="0.12961629601100871" blue="0.25973588197969544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prof" translatesAutoresizingMaskIntoConstraints="NO" id="cAP-X8-8jH">
-                                <rect key="frame" x="16" y="86" width="128" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="128" id="9T4-uY-1YN"/>
-                                    <constraint firstAttribute="height" constant="128" id="MMj-d2-FqL"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G E T  M O T I V A T E D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvz-bz-Ueb">
                                 <rect key="frame" x="0.0" y="250.66666666666666" width="375" height="20.333333333333343"/>
                                 <color key="backgroundColor" red="0.96801633883248728" green="0.96801633883248728" blue="0.96801633883248728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -505,7 +484,7 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P O I N T S" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwb-s1-m6a">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="P O I N T S" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwb-s1-m6a">
                                 <rect key="frame" x="211" y="86" width="22" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="5Qf-ai-i7p"/>
@@ -515,7 +494,7 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                                 <color key="textColor" red="1" green="0.7686274509803922" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9os-jd-D7C">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9os-jd-D7C">
                                 <rect key="frame" x="231" y="86" width="128" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.76862745099999996" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -567,16 +546,13 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                             <constraint firstItem="Kcv-wE-f8r" firstAttribute="trailing" secondItem="Bn3-h5-L9T" secondAttribute="trailing" constant="17" id="18b-nn-zwZ"/>
                             <constraint firstItem="SI9-eM-8ft" firstAttribute="trailing" secondItem="Bn3-h5-L9T" secondAttribute="trailing" constant="11" id="2Rf-ML-buo"/>
                             <constraint firstItem="xAM-d4-5B4" firstAttribute="leading" secondItem="Bn3-h5-L9T" secondAttribute="leading" id="3Yz-xL-JBR"/>
-                            <constraint firstItem="cAP-X8-8jH" firstAttribute="top" secondItem="Qb1-4P-Cjf" secondAttribute="bottom" constant="8" id="3bU-8P-aXu"/>
                             <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="kvz-bz-Ueb" secondAttribute="bottom" constant="458" id="9Yi-kI-YQA"/>
                             <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="xAM-d4-5B4" secondAttribute="bottom" constant="23" id="CFb-C0-WHK"/>
                             <constraint firstItem="9os-jd-D7C" firstAttribute="leading" secondItem="Xwb-s1-m6a" secondAttribute="trailing" constant="-2" id="DZZ-qz-QdH"/>
                             <constraint firstItem="Qb1-4P-Cjf" firstAttribute="top" secondItem="Bn3-h5-L9T" secondAttribute="top" id="EwE-rB-rnF"/>
                             <constraint firstItem="Qb1-4P-Cjf" firstAttribute="centerX" secondItem="Bn3-h5-L9T" secondAttribute="centerX" id="GQq-ku-ZVy"/>
-                            <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="cAP-X8-8jH" secondAttribute="bottom" constant="515" id="Lsn-UM-Xgg"/>
                             <constraint firstItem="Bn3-h5-L9T" firstAttribute="leading" secondItem="Lnc-Qw-sGI" secondAttribute="leading" constant="9" id="Ml8-7W-T1U"/>
                             <constraint firstItem="SI9-eM-8ft" firstAttribute="top" secondItem="kvz-bz-Ueb" secondAttribute="bottom" constant="8" id="PYd-kj-K0X"/>
-                            <constraint firstItem="Bn3-h5-L9T" firstAttribute="trailing" secondItem="cAP-X8-8jH" secondAttribute="trailing" constant="231" id="Pir-FF-FG3"/>
                             <constraint firstItem="kvz-bz-Ueb" firstAttribute="leading" secondItem="Qb1-4P-Cjf" secondAttribute="leading" id="RgO-fo-Maf"/>
                             <constraint firstItem="9os-jd-D7C" firstAttribute="top" secondItem="Qb1-4P-Cjf" secondAttribute="bottom" constant="8" id="Sel-eA-hR5"/>
                             <constraint firstItem="SI9-eM-8ft" firstAttribute="leading" secondItem="Lnc-Qw-sGI" secondAttribute="trailing" constant="17" id="Tkz-0B-4Vz"/>
@@ -584,13 +560,10 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
                             <constraint firstItem="V9W-iO-j21" firstAttribute="leading" secondItem="xAM-d4-5B4" secondAttribute="trailing" constant="8" id="WRv-A4-S53"/>
                             <constraint firstItem="xAM-d4-5B4" firstAttribute="top" secondItem="Lnc-Qw-sGI" secondAttribute="bottom" constant="15" id="Wyv-DW-82f"/>
                             <constraint firstItem="Kcv-wE-f8r" firstAttribute="top" secondItem="SI9-eM-8ft" secondAttribute="bottom" constant="8" id="YZr-gp-E1B"/>
-                            <constraint firstItem="cAP-X8-8jH" firstAttribute="leading" secondItem="Bn3-h5-L9T" secondAttribute="leading" constant="16" id="Zyo-kt-og6"/>
                             <constraint firstItem="Lnc-Qw-sGI" firstAttribute="top" secondItem="kvz-bz-Ueb" secondAttribute="bottom" constant="8" id="dwd-iP-RfK"/>
-                            <constraint firstItem="cAP-X8-8jH" firstAttribute="top" secondItem="Bn3-h5-L9T" secondAttribute="top" constant="42" id="l4l-MB-TP1"/>
                             <constraint firstItem="V9W-iO-j21" firstAttribute="bottom" secondItem="xAM-d4-5B4" secondAttribute="bottom" id="pA2-ok-cIc"/>
                             <constraint firstItem="Bn3-h5-L9T" firstAttribute="bottom" secondItem="Qb1-4P-Cjf" secondAttribute="bottom" constant="651" id="uLU-3h-Q0U"/>
                             <constraint firstItem="Xwb-s1-m6a" firstAttribute="top" secondItem="Qb1-4P-Cjf" secondAttribute="bottom" constant="8" id="xcg-ak-Tmi"/>
-                            <constraint firstItem="Xwb-s1-m6a" firstAttribute="leading" secondItem="cAP-X8-8jH" secondAttribute="trailing" constant="67" id="yeA-gW-nSv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bn3-h5-L9T"/>
                     </view>
@@ -679,7 +652,6 @@ So limit consumption of goods that do not break down (ex: styrofoam, plastic), a
         <image name="carbon" width="1200" height="630"/>
         <image name="cases" width="1024" height="683"/>
         <image name="fruit" width="466" height="466"/>
-        <image name="prof" width="530" height="530"/>
         <image name="straw" width="1420" height="946"/>
         <image name="white" width="1022" height="768"/>
     </resources>
