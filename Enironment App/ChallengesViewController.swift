@@ -21,7 +21,7 @@ class ChallengesViewController: UIViewController {
     
     @IBOutlet weak var uncheckbox5: UIButton!
 
-    var checkBox = UIImage(named: "red")
+    var checkBox = UIImage(named: "check")
     var uncheckBox = UIImage(named: "white")
     var total: Int = 0
     
